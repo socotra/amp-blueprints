@@ -5,7 +5,7 @@ Socotra MarketPlace feature blueprints.
 
 A collection of blueprint projects which illustrate various features of AMP Marketplace applications.
 
-This repository contains sample blueprint apps illustrating the all Socotra Marketplace Application features. Each blueprint is a self-contained extension that explains one topic in [https://socotra.atlassian.net/wiki/spaces/MD/pages](https://socotra.atlassian.net/wiki/spaces/MD/pages/2593620097/Reference+Guides). You can read, play with or adapt from these samples to create your own applications using all listed features.
+This repository contains sample blueprint apps illustrating the all Socotra Marketplace Application features. Each blueprint is a self-contained extension that explains one topic in [Public docs](https://socotra.atlassian.net/wiki/spaces/MD/pages/2593620097/Reference+Guides). You can read, play with or adapt from these samples to create your own applications using all listed features.
 
 You can expect from each sample:
 - An explanation of its functionality
@@ -34,16 +34,16 @@ You need to have [docker](https://www.docker.com/), [node](https://nodejs.org/en
 
 ## Blueprints
 
-| Sample | Guide on Socotra Docs website | Marketplace Features used|
-| ------ | ----- | --- |
-| [LifeCycle Events blueprint](https://github.com/socotra/amp-blueprints/tree/main/lifecycle-events-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Lifecycle](https://socotra.atlassian.net/wiki/spaces/MD/pages)|
-| [Webhooks blueprint](https://github.com/socotra/amp-blueprints/tree/main/webhooks-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Webhooks](https://socotra.atlassian.net/wiki/spaces/MD/pages)|
-| [Autofill blueprint](https://github.com/socotra/amp-blueprints/tree/main/autofill-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Autofill](https://socotra.atlassian.net/wiki/spaces/MD/pages)|
-| [External Rater blueprint](https://github.com/socotra/amp-blueprints/tree/main/external-rater-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.ExternalRater](https://socotra.atlassian.net/wiki/spaces/MD/pages)|
-| [State Service blueprint](https://github.com/socotra/amp-blueprints/tree/main/state-service-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [State Service](https://socotra.atlassian.net/wiki/spaces/MD/pages)|
-| [Customer logging blueprint](https://github.com/socotra/amp-blueprints/tree/main/customer-logs-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Customer Logs](https://socotra.atlassian.net/wiki/spaces/MD/pages)|
-| [Application Settings blueprint](https://github.com/socotra/amp-blueprints/tree/main/app-settings-sample) | [Instance settings](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [App Settings](https://socotra.atlassian.net/wiki/spaces/MD/pages)|
-| [Mapped Fields blueprint](https://github.com/socotra/amp-blueprints/tree/main/mapped-fields-sample) | [Instance settings](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [App Mapped fields](https://socotra.atlassian.net/wiki/spaces/MD/pages)|
+| Sample | Reference to docs | Marketplace Features used| Language |
+| ------ | ----- | --- | --- |
+| [LifeCycle Events blueprint](https://github.com/socotra/amp-blueprints/tree/main/lifecycle-events-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Lifecycle](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [Webhooks blueprint](https://github.com/socotra/amp-blueprints/tree/main/webhooks-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Webhooks](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [Autofill blueprint](https://github.com/socotra/amp-blueprints/tree/main/autofill-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Autofill](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [External Rater blueprint](https://github.com/socotra/amp-blueprints/tree/main/external-rater-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.ExternalRater](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [State Service blueprint](https://github.com/socotra/amp-blueprints/tree/main/state-service-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [State Service](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [Customer logging blueprint](https://github.com/socotra/amp-blueprints/tree/main/customer-logs-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Customer Logs](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [Application Settings blueprint](https://github.com/socotra/amp-blueprints/tree/main/app-settings-sample) | [Instance settings](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [App Settings](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [Mapped Fields blueprint](https://github.com/socotra/amp-blueprints/tree/main/mapped-fields-sample) | [Instance settings](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [App Mapped fields](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
 
 
 
