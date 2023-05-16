@@ -27,7 +27,7 @@ export class Utils {
      * Returns promise which is being resolved after a certain amount of seconds.
      * This method has no specific purpose other than imitate some real work application may want to perform.
      * @param seconds number of seconds the promise should sleep for.
-     * @returns 
+     * @returns
      */
     Sleep(seconds: number) {
         return new Promise((r) => setTimeout(r, seconds * 1000))

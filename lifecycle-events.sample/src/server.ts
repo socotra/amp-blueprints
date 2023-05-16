@@ -8,7 +8,7 @@ app.get("/", utils.RespondWith200Ok)
 app.get("/health", utils.RespondWith200Ok)
 
 
-// Lifecycle event - Start 
+// Lifecycle event - Start
 app.get("/_app/start",
   async (req: Request, res: Response): Promise<void> => {
     await utils.Sleep(5); // Do useful work for OnStart
@@ -16,7 +16,7 @@ app.get("/_app/start",
   }
 );
 
-// Lifecycle event - Stop 
+// Lifecycle event - Stop
 app.get("/_app/stop",
   async (req: Request, res: Response): Promise<void> => {
     await utils.Sleep(5); // Do useful work for OnStop
