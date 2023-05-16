@@ -1,5 +1,5 @@
 
-# Socotra MarketPlace feature blueprints.
+# Socotra Marketplace feature blueprints.
 
 A collection of blueprint projects which illustrate various features of Socotra Marketplace applications.
 
@@ -12,7 +12,7 @@ You can expect from each sample:
 - Correct `app-manifest.json` with minimal necessary configuration for the specific feature
 
 
-## Basic Pre-reqs for all samples
+## Pre-reqs for all samples
 
 - Docker engine for your platform - [official Docker installers.](https://www.docker.com/)
 - Node.js for your platform - [official Nodejs installers.](https://nodejs.org)
@@ -39,12 +39,12 @@ Developers can start with Socotra Marketplace [Minimal app blueprint](https://gi
 
 | Sample | Reference to docs | Marketplace Features used| Language |
 | ------ | ----- | --- | --- |
-| [LifeCycle Events blueprint](https://github.com/socotra/amp-blueprints/tree/main/lifecycle-events.sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Lifecycle](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [TBD: Webhooks blueprint](https://github.com/socotra/amp-blueprints/tree/main/webhooks-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Webhooks](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [TBD: Autofill blueprint](https://github.com/socotra/amp-blueprints/tree/main/autofill-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Autofill](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [TBD: External Rater blueprint](https://github.com/socotra/amp-blueprints/tree/main/external-rater-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.ExternalRater](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [TBD: State Service blueprint](https://github.com/socotra/amp-blueprints/tree/main/state-service-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [State Service](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [TBD: Customer logging blueprint](https://github.com/socotra/amp-blueprints/tree/main/customer-logs-sample) | [link-to-docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Customer Logs](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [LifeCycle Events blueprint](https://github.com/socotra/amp-blueprints/tree/main/lifecycle-events.sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Lifecycle](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [TBD: Webhooks blueprint](https://github.com/socotra/amp-blueprints/tree/main/webhooks-sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Webhooks](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [TBD: Autofill blueprint](https://github.com/socotra/amp-blueprints/tree/main/autofill-sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Autofill](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [TBD: External Rater blueprint](https://github.com/socotra/amp-blueprints/tree/main/external-rater-sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.ExternalRater](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [TBD: State Service blueprint](https://github.com/socotra/amp-blueprints/tree/main/state-service-sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [State Service](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [TBD: Customer logging blueprint](https://github.com/socotra/amp-blueprints/tree/main/customer-logs-sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Customer Logs](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
 | [TBD: Application Settings blueprint](https://github.com/socotra/amp-blueprints/tree/main/app-settings-sample) | [Instance settings](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [App Settings](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
 | [TBD: Mapped Fields blueprint](https://github.com/socotra/amp-blueprints/tree/main/mapped-fields-sample) | [Instance settings](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [App Mapped fields](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
 
