@@ -1,0 +1,10 @@
+{
+  "name": "blueprints-org/lifecycle-sample-app",
+  "version": "0.0.2",
+  "socotra": {
+    "lifecycle": [
+      "start",
+      "stop"
+    ]
+  }
+}
