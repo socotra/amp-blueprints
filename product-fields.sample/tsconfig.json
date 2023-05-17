@@ -1,0 +1,15 @@
+{
+    "root": true,
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "strict": true,
+        "esModuleInterop": true,
+        "inlineSourceMap": true,
+        "lib": [
+            "es6"
+        ],
+        "outDir": "./dist"
+    }
+}

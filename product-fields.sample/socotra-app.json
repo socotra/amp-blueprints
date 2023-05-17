@@ -1,0 +1,31 @@
+{
+  "name": "blueprints-org/product-fields-app",
+  "version": "0.0.1",
+  "socotra": {
+    "fields": [
+      {
+        "name": "policy-holder-name",
+        "title": "Policyholder name",
+        "required": true,
+        "hint": "Account Policyholder name"
+      },
+      {
+        "name": "vehicle-make",
+        "title": "Vehicle Make",
+        "required": true,
+        "hint": "Manufacturer of a vehicle"
+      },
+      {
+        "name": "vehicle-model",
+        "title": "Vehicle Model",
+        "required": false,
+        "hint": "Model of a vehicle"
+      },
+      {
+        "name": "vehicle-year",
+        "title": "Vehicle year",
+        "hint": "Year in which vehicle was manufactured"
+      }
+    ]
+  }
+}

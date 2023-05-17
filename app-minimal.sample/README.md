@@ -2,7 +2,7 @@
 # Minimal application
 
 This a sample application which shows a bare minimal Marketplace application which implements only required parts.
-More details about required parts of Marketplace app can be found in [Getting started guide](https://socotra.atlassian.net/wiki/spaces/MD/pages/2634252357/Getting+started+with+an+app).
+More details about required parts of Marketplace app can be found in [Create an app guide]https://socotra.atlassian.net/wiki/spaces/MD/pages/2540371975/Create+an+app).
 
 > This sample is not intended to be a "production quality" application and should be used for reference and illustration only.
 
