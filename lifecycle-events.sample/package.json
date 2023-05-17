@@ -1,13 +1,15 @@
 {
   "name": "lifecycle-events-sample",
   "version": "0.0.1",
-  "description": "Sample to illustrate how to use Lifecycle events",
+  "description": "Sample to illustrate how to use Lifecycle events in Marketplace app",
   "main": "server.js",
   "scripts": {
-    "start": "npm run build-app && node ./dist/server.js",
+    "start": "node server.js",
     "lint": "eslint \"src/**/*.ts\"",
-    "build-app": "tsc",
-    "build-docker": "docker build . -t $IMG",
+    "build-app": "tsc -p ./tsconfig.json",
+    "build-docker": "npm run build-app && docker build . -t $IMG",
+    "local-docker": "docker run --publish 10111:10111 --rm $IMG:latest",
+    "all-docker": "npm run build-docker && npm run local-docker",
     "increment-version": "socotra-app version patch",
     "publish-marketplace": "socotra-app publish docker $IMG:latest"
   },
@@ -16,7 +18,7 @@
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.2",
     "@types/express": "^4.17.17",
-    "@types/node": "^20.1.5",
+    "@types/node": "^20.1.7",
     "@typescript-eslint/eslint-plugin": "^5.59.6",
     "@typescript-eslint/parser": "^5.59.6",
     "eslint": "^8.40.0",

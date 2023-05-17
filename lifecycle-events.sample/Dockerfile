@@ -4,8 +4,10 @@ WORKDIR /app
 
 FROM base AS final
 EXPOSE 10111
-COPY ./package.json /app/
-COPY ./package-lock.json /app/
+
+COPY ./package.json .
+COPY ./package-lock.json .
 RUN npm ci
-COPY ./dist/ /app/
+
+COPY ./dist/ .
 CMD ["npm", "start"]

@@ -1,6 +1,6 @@
 {
-  "name": "blueprints-org/product-fields-app",
-  "version": "0.0.1",
+  "name": "socotra/product-fields-app",
+  "version": "0.0.2",
   "socotra": {
     "fields": [
       {
@@ -24,6 +24,57 @@
       {
         "name": "vehicle-year",
         "title": "Vehicle year",
+        "hint": "Year in which vehicle was manufactured"
+      },
+      {
+        "name": "vehicle-make2",
+        "title": "Vehicle Make2",
+        "required": true,
+        "hint": "Manufacturer of a vehicle"
+      },
+      {
+        "name": "vehicle-model2",
+        "title": "Vehicle Model2",
+        "required": false,
+        "hint": "Model of a vehicle"
+      },
+      {
+        "name": "vehicle-year2",
+        "title": "Vehicle year2",
+        "hint": "Year in which vehicle was manufactured"
+      },
+      {
+        "name": "vehicle-make3",
+        "title": "Vehicle Make3",
+        "required": true,
+        "hint": "Manufacturer of a vehicle"
+      },
+      {
+        "name": "vehicle-model3",
+        "title": "Vehicle Model3",
+        "required": false,
+        "hint": "Model of a vehicle"
+      },
+      {
+        "name": "vehicle-year3",
+        "title": "Vehicle year3",
+        "hint": "Year in which vehicle was manufactured"
+      },
+      {
+        "name": "vehicle-make4",
+        "title": "Vehicle Make4",
+        "required": true,
+        "hint": "Manufacturer of a vehicle"
+      },
+      {
+        "name": "vehicle-model4",
+        "title": "Vehicle Model4",
+        "required": false,
+        "hint": "Model of a vehicle"
+      },
+      {
+        "name": "vehicle-year4",
+        "title": "Vehicle year4",
         "hint": "Year in which vehicle was manufactured"
       }
     ]
