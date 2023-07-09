@@ -1,6 +1,6 @@
 {
-  "name": "blueprints-org/lifecycle-sample-app",
-  "version": "0.0.2",
+  "name": "socotra/amp-lifecycle-tester-alx",
+  "version": "0.0.4",
   "socotra": {
     "lifecycle": [
       "start",
