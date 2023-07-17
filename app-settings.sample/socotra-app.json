@@ -1,0 +1,81 @@
+{
+  "name": "blueprints-org/app-settings-sample",
+  "version": "0.1.0",
+  "app": {
+    "fields": [
+      {
+        "name": "input-setting",
+        "title": "Required input field",
+        "type": "Text",
+        "required": true,
+        "hint": "This is a hint for simple input field."
+      },
+      {
+        "name": "password-setting",
+        "title": "Example password field",
+        "type": "Password",
+        "required": true,
+        "hint": "This field will not display user's input and is a write-only, can't be read back when application is reconfigured."
+      },
+      {
+        "name": "sensitive-input-setting",
+        "title": "Optional sensitive input",
+        "sensitive": true,
+        "type": "Text",
+        "hint": "This field is sensitive - input is not masked, but can't be read."
+      },
+      {
+        "name": "week-start-day",
+        "title": "Optional first day of the week (no hint needed)",
+        "type": "Select",
+        "values": [
+          {
+            "text": "Monday",
+            "value": "MON"
+          },
+          {
+            "text": "Tuesday",
+            "value": "TUE"
+          },
+          {
+            "text": "Wednesday",
+            "value": "WED"
+          },
+          {
+            "text": "Thursday",
+            "value": "THU"
+          },
+          {
+            "text": "Friday",
+            "value": "FRI"
+          },
+          {
+            "text": "Saturday",
+            "value": "SAT"
+          },
+          {
+            "text": "Sunday",
+            "value": "SUN"
+          }
+        ]
+      },
+      {
+        "name": "boolean-selector",
+        "title": "Would you like a cup of coffee?",
+        "type": "Select",
+        "required": true,
+        "hint": "This field is a dropdown with 2 elements.",
+        "values": [
+          {
+            "text": "Yes, please",
+            "value": "true"
+          },
+          {
+            "text": "No, thank you",
+            "value": "false"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -41,20 +41,15 @@ Developers can start with Socotra Marketplace [Minimal app blueprint](https://gi
 
 | Sample | Reference to docs | Marketplace Features used| Language |
 | ------ | ----- | --- | --- |
-| [Minimal app blueprint](https://github.com/socotra/amp-blueprints/tree/main/app-minimal.sample)| [Build an app](https://docs.marketplace.smp-dev.com/user-guides/build-an-app) | -- | Typescript
+| [Minimal application blueprint](https://github.com/socotra/amp-blueprints/tree/main/app-minimal.sample)| [Build an app](https://docs.marketplace.smp-dev.com/user-guides/build-an-app) | -- | Typescript
 | [Product Fields blueprint](https://github.com/socotra/amp-blueprints/tree/main/product-fields.sample) | [Product fields mapping](https://socotra.atlassian.net/wiki/spaces/MD/pages/2634219752/Product+fields+mapping) | [Socotra.Fields](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [Application Settings blueprint](https://github.com/socotra/amp-blueprints/tree/main/app-settings.sample) | [App Instance settings](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Manifest.Fields](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
 | [LifeCycle Events blueprint](https://github.com/socotra/amp-blueprints/tree/main/lifecycle-events.sample) | [Lifecycle Events](https://docs.marketplace.smp-dev.com/reference-guides/lifecycle-events) | [Socotra.Lifecycle](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [TBD: Application Settings blueprint](https://github.com/socotra/amp-blueprints/tree/main/app-settings-sample) | [App Instance settings](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Manifest.Fields](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [TBD: Webhooks blueprint](https://github.com/socotra/amp-blueprints/tree/main/webhooks-sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Webhooks](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [TBD: Autofill blueprint](https://github.com/socotra/amp-blueprints/tree/main/autofill-sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Autofill](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [TBD: External Rater blueprint](https://github.com/socotra/amp-blueprints/tree/main/external-rater-sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.ExternalRater](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [TBD: State Service blueprint](https://github.com/socotra/amp-blueprints/tree/main/state-service-sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [State Service](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [TBD: Customer logging blueprint](https://github.com/socotra/amp-blueprints/tree/main/customer-logs-sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Customer Logs](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-
-
-
-
-
+| [TBD: Webhooks blueprint](https://github.com/socotra/amp-blueprints/tree/main/webhooks.sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Webhooks](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [TBD: Autofill helper blueprint](https://github.com/socotra/amp-blueprints/tree/main/autofill.sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Autofill](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [TBD: External Rater blueprint](https://github.com/socotra/amp-blueprints/tree/main/external-rater.sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.ExternalRater](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [TBD: State Service blueprint](https://github.com/socotra/amp-blueprints/tree/main/state-service.sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [State Service](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [TBD: Customer logging blueprint](https://github.com/socotra/amp-blueprints/tree/main/customer-logs.sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Customer Logs](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
 
 ----
 
