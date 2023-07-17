@@ -42,9 +42,9 @@ Developers can start with Socotra Marketplace [Minimal app blueprint](https://gi
 | Sample | Reference to docs | Marketplace Features used| Language |
 | ------ | ----- | --- | --- |
 | [Minimal application](https://github.com/socotra/amp-blueprints/tree/main/app-minimal.sample)| [Build an app](https://docs.marketplace.smp-dev.com/user-guides/build-an-app) | -- | Typescript
-| [Application settings](https://github.com/socotra/amp-blueprints/tree/main/app-settings.sample) | [App Instance settings](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [App.Fields](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [Product fields mapping](https://github.com/socotra/amp-blueprints/tree/main/product-fields.sample) | [Product fields mapping](https://socotra.atlassian.net/wiki/spaces/MD/pages/2634219752/Product+fields+mapping) | [Socotra.Fields](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [Lifecycle events](https://github.com/socotra/amp-blueprints/tree/main/lifecycle-events.sample) | [App lifecycle events](https://docs.marketplace.smp-dev.com/reference-guides/lifecycle-events) | [Socotra.Lifecycle](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [Application settings](https://github.com/socotra/amp-blueprints/tree/main/app-settings.sample) | [App Instance settings](https://socotra.atlassian.net/wiki/spaces/MD/pages) | `App.Fields`| Typescript
+| [Product fields mapping](https://github.com/socotra/amp-blueprints/tree/main/product-fields.sample) | [Product fields mapping](https://socotra.atlassian.net/wiki/spaces/MD/pages) | `Socotra.Fields`| Typescript
+| [Lifecycle events](https://github.com/socotra/amp-blueprints/tree/main/lifecycle-events.sample) | [App lifecycle events](https://docs.marketplace.smp-dev.com/reference-guides/lifecycle-events) | `Socotra.Lifecycle`| Typescript
 
 
 ----
