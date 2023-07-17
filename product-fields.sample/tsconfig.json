@@ -4,13 +4,16 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es6",
+    "outDir": "./dist",
+    "sourceRoot": "./src",
+    "inlineSourceMap": true,
     "strict": true,
     "esModuleInterop": true,
-    "inlineSourceMap": true,
     "lib": [
       "es6"
-    ],
-    "sourceRoot": "./src",
-    "outDir": "./dist"
-  }
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
 }

@@ -12,7 +12,9 @@ You can expect from each sample:
 - Correct `app-manifest.json` with minimal necessary configuration for the specific feature
 
 
-## Pre-reqs for all samples
+## Pre-requsites for all samples
+
+Developer needs to have installed and configured:
 
 - Docker engine for your platform - [official Docker installers.](https://www.docker.com/)
 - Node.js for your platform - [official Nodejs installers.](https://nodejs.org)
@@ -27,7 +29,7 @@ All necessary commands are in "scripts" section of corresponding `package.json` 
 ## Usage
 
 - `git clone https://github.com/socotra/amp-blueprints`
-- `code <blueprint-sample-folder>` or open sample folder in your favorite IDE.
+- `code <blueprint-sample-folder>` opens a sample folder in VSCode or open it in your favorite IDE.
 - Follow the instructions in each blueprint's README for setting up and running the sample
 
 
@@ -39,8 +41,9 @@ Developers can start with Socotra Marketplace [Minimal app blueprint](https://gi
 
 | Sample | Reference to docs | Marketplace Features used| Language |
 | ------ | ----- | --- | --- |
+| [Minimal app blueprint](https://github.com/socotra/amp-blueprints/tree/main/app-minimal.sample)| [Build an app](https://docs.marketplace.smp-dev.com/user-guides/build-an-app) | -- | Typescript
 | [Product Fields blueprint](https://github.com/socotra/amp-blueprints/tree/main/product-fields.sample) | [Product fields mapping](https://socotra.atlassian.net/wiki/spaces/MD/pages/2634219752/Product+fields+mapping) | [Socotra.Fields](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
-| [LifeCycle Events blueprint](https://github.com/socotra/amp-blueprints/tree/main/lifecycle-events.sample) | [Lifecycle Events](https://socotra.atlassian.net/wiki/spaces/MD/pages/2592637297/Lifecycle+events) | [Socotra.Lifecycle](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
+| [LifeCycle Events blueprint](https://github.com/socotra/amp-blueprints/tree/main/lifecycle-events.sample) | [Lifecycle Events](https://docs.marketplace.smp-dev.com/reference-guides/lifecycle-events) | [Socotra.Lifecycle](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
 | [TBD: Application Settings blueprint](https://github.com/socotra/amp-blueprints/tree/main/app-settings-sample) | [App Instance settings](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Manifest.Fields](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
 | [TBD: Webhooks blueprint](https://github.com/socotra/amp-blueprints/tree/main/webhooks-sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Webhooks](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript
 | [TBD: Autofill blueprint](https://github.com/socotra/amp-blueprints/tree/main/autofill-sample) | [Docs](https://socotra.atlassian.net/wiki/spaces/MD/pages) | [Socotra.Autofill](https://socotra.atlassian.net/wiki/spaces/MD/pages)| Typescript

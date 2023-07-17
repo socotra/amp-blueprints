@@ -1,4 +1,5 @@
 import { Request, Response } from "express";
+import { URL } from "url";
 
 /**
  * Class with various utility methods for samples
@@ -22,6 +23,33 @@ export class Utils {
     }
     return defaultPort;
   }
+
+  /**
+   * Extracts routeid value from received request headers
+   * @param req Incoming request
+   * @returns value of x-smp-key header or null if header is not found.
+   */
+  static GetSmpKey(req: Request): string | null {
+    var keyValue = req.headers['x-smp-key']; // type here is string|string[]|null which is how node handles the headers in request
+
+    if (typeof keyValue === "string") // value is of a string type
+      return keyValue
+    else if (keyValue) // not null and is string[]. Unlikely we'll get an array here as custom header values are joined with ', '
+      return keyValue[0]
+
+    return null;
+  }
+
+  static ParseAppConnectAddress(StateServiceVariable: string): URL | null {
+    const appConnectUrl = process.env[StateServiceVariable];
+
+    if (appConnectUrl) {
+      // This instantiation will throw if URL is not correct
+      return new URL(appConnectUrl);
+    }
+    return null;
+  }
+
 
   /**
    * Returns promise which is being resolved after a certain amount of seconds.
@@ -59,4 +87,3 @@ export class Utils {
     };
   }
 }
-
