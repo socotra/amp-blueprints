@@ -45,6 +45,7 @@ Developers can start with Socotra Marketplace [Minimal app blueprint](https://gi
 | [Application settings](https://github.com/socotra/amp-blueprints/tree/main/app-settings.sample) | [App Instance settings](https://socotra.atlassian.net/wiki/spaces/MD/pages) | `App.Fields`| Typescript
 | [Product fields mapping](https://github.com/socotra/amp-blueprints/tree/main/product-fields.sample) | [Product fields mapping](https://socotra.atlassian.net/wiki/spaces/MD/pages) | `Socotra.Fields`| Typescript
 | [Lifecycle events](https://github.com/socotra/amp-blueprints/tree/main/lifecycle-events.sample) | [App lifecycle events](https://docs.marketplace.smp-dev.com/reference-guides/lifecycle-events) | `Socotra.Lifecycle`| Typescript
+| [Webhooks](https://github.com/socotra/amp-blueprints/tree/main/webhooks.sample) | [Webhooks](https://docs.marketplace.smp-dev.com/reference-guides/webhooks) | `Socotra.Webhooks`, `App.Fields` | Typescript
 
 
 ----
