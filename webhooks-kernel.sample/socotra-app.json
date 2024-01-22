@@ -1,0 +1,37 @@
+{
+  "name": "socotra/product-fields-sample",
+  "targetPlatform":"kernel",
+  "version": "0.7.0",
+  "app": {
+    "fields": [
+      {
+        "name": "slack-webhook-address",
+        "title": "Webhook url",
+        "type": "Text",
+        "required": true,
+        "hint": "A webhook url (slack for example) which will be notified on Socotra's events"
+      }
+    ]
+  },
+  "socotra": {
+    "webhooks": [
+      {
+        "path": "/webhook-notify",
+        "events": [
+          "policy.create",
+          "policy.renew",
+          "policy.quote.create",
+          "policy.quote.quoted",
+          "policy.quote.accept",
+          "policy.quote.declined",
+          "policy.quote.discard",
+          "invoice.issue",
+          "invoice.pastDue",
+          "invoice.invalidate"
+        ]
+      }
+    ],
+    "autofill": [],
+    "externalRaters": []
+  }
+}
